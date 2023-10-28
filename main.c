@@ -1,4 +1,4 @@
-﻿#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
 
@@ -59,8 +59,7 @@ int main()
       }
       if (bulls == 4)
       {
-         system("cls");
-         printf("ВЕРНО! %d", assumption);
+         printf("ВЕРНО!");
          return assumption;
       }
       printf("\nБыки: %d", bulls);
