@@ -18,7 +18,7 @@ int main()
    printf("Игра 'Быки и коровы'\n");
    printf("Введите загаданное число: ");
    scanf_s("%d", &x);
-   //system("cls");
+   system("cls");
 
    //Проверка на длину числа
    if (number_length(x) != 4)
@@ -59,7 +59,8 @@ int main()
       }
       if (bulls == 4)
       {
-         printf("ВЕРНО!");
+         system("cls");
+         printf("ВЕРНО! %d", assumption);
          return assumption;
       }
       printf("\nБыки: %d", bulls);
